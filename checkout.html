@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Flex</title>
+
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <!--font awesome cdn link-->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="Style.css" />
+  </head>
+
+  <body>
+    <section class="section_1 container-fluid p-0">
+      <div class="d-flex flex-column">
+        <div>
+          <header>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+              <a class="navbar-brand" href="#">COMTECH</a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="navbar-nav mr-auto"></div>
+                <ul class="navbar-nav">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="index.html"
+                      >Home <span class="sr-only">(current)</span></a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Portfolio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Services</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Blog</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Our Team</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact Us</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </header>
+        </div>
+      </div>
+    </section>
+    <!-- ************************************ Section 2 ************************************* -->
+    <section class="section1">
+      <div id="top-card" class="card">
+        <div class="row">
+          <div class="col-md-3 text-center">
+            <div class="card-body">
+              <img id="logo" src="img/logo.png" alt="" class="card-img" />
+            </div>
+          </div>
+          <div class="col-md-5 text-center">
+            <form id="search-form" action="" class="form-inline">
+              <div class="form-group">
+                <input
+                  id="search-input"
+                  type="text"
+                  class="form-control"
+                  placeholder="Search"
+                />
+              </div>
+              <div class="form-group">
+                <button id="search-btn" class="btn btn-warning">
+                  Search
+                </button>
+              </div>
+            </form>
+          </div>
+          <div class="col-md-4">
+            <ul id="card-ul" class="list-group list-group-horizontal">
+              <li id="card-ul-li" class="list-group-item">
+                Hi Lawrence<i class="fas fa-sort-down"></i>
+              </li>
+              <li id="card-ul-li" class="list-group-item">Help</li>
+              <li id="card-ul-li" class="list-group-item">
+                <i class="fas fa-cart-arrow-down"></i>Cart
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <br />
+    <!-- ************************************ Section 2 ************************************* -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <h6 class="font-weight-light">CHECKOUT</h6>
+          <div class="card">
+            <h6 class="card-header">
+              <i
+                style="font-size: 25px;"
+                class="far fa-check-circle text-success pr-2"
+              ></i
+              >1. ADDRESS DETAILS
+            </h6>
+            <div class="card-body">
+              <h6 class="card-title">Lawrence Katuva</h6>
+              <p class="card-text">
+                Kenyatta university, Kahawa Wendani/ Kenyatta University,
+                Nairobi
+              </p>
+              <p class="card-text">+254720460519</p>
+            </div>
+          </div>
+          <br />
+          <div class="card">
+            <h6 class="card-header">
+              <i
+                style="font-size: 25px;"
+                class="far fa-check-circle text-success pr-2"
+              ></i
+              >2. DELIVERY METHOD
+            </h6>
+            <div class="card-body">
+              <h6 class="card-title">Delivery to your home or office</h6>
+              <p class="card-text">
+                Delivered between Friday 6 Mar and Monday 9 Mar for
+                <span class="text-warning">KSH 440</span>
+              </p>
+            </div>
+          </div>
+          <br />
+          <div class="card">
+            <h6 class="card-header">
+              <i
+                style="font-size: 25px;"
+                class="far fa-check-circle text-success pr-2"
+              ></i
+              >3. PAYMENT METHOD
+            </h6>
+            <div class="card-body">
+              <h6 class="card-title">How do you want to pay for your order?</h6>
+              <h6 class="card-title">
+                <i class="fas fa-money-bill-wave pr-2 text-warning"></i>Cash On
+                Delivery
+              </h6>
+              <p class="card-text pl-3">
+                If you select Cash On Delivery, you can pay for your package
+                when our Delivery Associates bring it to your door step or when
+                you pick it up at one of our Pickup Stations.
+              </p>
+              <p class="card-text pl-3">
+                IMPORTANT: Please carry the exact amount in Kenyan Shillings as
+                our Delivery Associates and Pickup Station staff do not carry
+                petty cash.
+              </p>
+              <hr />
+              <h6 class="card-title">
+                <img
+                  style="width: 30px;"
+                  src="img/mpesa.png"
+                  alt=""
+                  class="card-img pr-2"
+                />Lipa Na Mpesa
+              </h6>
+              <p class="card-text pl-3">
+                Pay with your M-PESA mobile money account through JumiaPay.
+                OFFER: FREE PICK UP ON JUMIA EXPRESS (NAIROBI ONLY)
+              </p>
+              <p class="card-text pl-3">
+                This is a fast and secure PREPAID Option!!
+              </p>
+              <hr />
+              <div class="row">
+                <div class="col text-left">
+                  <p class="card-text">Subtotal:</p>
+                  <p class="card-text">VAT</p>
+                  <p class="car-text">Shipping amount:</p>
+                </div>
+                <div class="col text-right">
+                  <p class="card-text">KSH 18499</p>
+                  <p class="card-text">KSH 0</p>
+                  <p class="card-text">KSH 440</p>
+                </div>
+              </div>
+              <hr />
+              <div class="row">
+                <div class="col text-left">
+                  <h6 class="card-title">Total</h6>
+                </div>
+                <div class="col text-right">
+                  <h5 class="card-title text-warning">KSH 18939</h5>
+                </div>
+              </div>
+              <button class="btn btn-warning text-light btn-block pt-2">
+                Pay Cart
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <h6 class="font-weight-light">ORDER SUMMARY</h6>
+          <div class="card">
+            <h6 class="card-header">YOUR ORDER(2 ITEMS)</h6>
+            <div class="card-body">
+              <div class="row">
+                <div class="col-md-3">
+                  <img src="img/blender.jpg" alt="" class="card-img" />
+                </div>
+                <div class="col-md-9">
+                  <p class="card-text">BLG-403 - Blender 1.5L - Grey.</p>
+                  <p style="margin-top: -18px;" class="card-text text-warning">
+                    KSh 2,399
+                  </p>
+                  <p
+                    style="margin-top: -18px;"
+                    class="card-text font-weight-light"
+                  >
+                    QTY: <span class="font-weight-normal">1</span>
+                  </p>
+                </div>
+              </div>
+              <hr />
+              <div class="row">
+                <div class="col-md-3">
+                  <img src="img/woofer.jpg" alt="" class="card-img" />
+                </div>
+                <div class="col-md-9">
+                  <p class="card-text">
+                    Sony DVD HOME Theatre System - Black
+                  </p>
+                  <p style="margin-top: -18px;" class="card-text text-warning">
+                    KSh 15,499
+                  </p>
+                  <p
+                    style="margin-top: -18px;"
+                    class="card-text font-weight-light"
+                  >
+                    QTY: <span class="font-weight-normal">1</span>
+                  </p>
+                </div>
+              </div>
+              <br />
+              <div class="row">
+                <div class="col text-left">
+                  <p class="card-text">Subtotal:</p>
+                  <p class="card-text">VAT:</p>
+                  <p class="card-text">Shipping Amount:</p>
+                </div>
+                <div class="col text-right">
+                  <p class="card-text">KSH 18499</p>
+                  <p class="card-text">KSH 0</p>
+                  <p class="card-text">KSH 440</p>
+                </div>
+              </div>
+              <hr />
+              <div class="row">
+                <div class="col text-left">
+                  <h6 class="card-title">TOTAL</h6>
+                </div>
+                <div class="col text-right">
+                  <h6 class="card-title text-warning">KSH 18939</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

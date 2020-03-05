@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Flex</title>
+
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <!--font awesome cdn link-->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="Style.css" />
+  </head>
+
+  <body>
+    <section class="section_1 container-fluid p-0">
+      <div class="d-flex flex-column">
+        <div>
+          <header>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+              <a class="navbar-brand" href="#">COMTECH</a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="navbar-nav mr-auto"></div>
+                <ul class="navbar-nav">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="index.html"
+                      >Home <span class="sr-only">(current)</span></a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Portfolio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Services</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Blog</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Our Team</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact Us</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </header>
+        </div>
+      </div>
+    </section>
+    <!-- ************************************ Section 2 ************************************* -->
+    <section class="section1">
+      <div id="top-card" class="card">
+        <div class="row">
+          <div class="col-md-3 text-center">
+            <div class="card-body">
+              <img id="logo" src="img/logo.png" alt="" class="card-img" />
+            </div>
+          </div>
+          <div class="col-md-5 text-center">
+            <form id="search-form" action="" class="form-inline">
+              <div class="form-group">
+                <input
+                  id="search-input"
+                  type="text"
+                  class="form-control"
+                  placeholder="Search"
+                />
+              </div>
+              <div class="form-group">
+                <button id="search-btn" class="btn btn-warning">
+                  Search
+                </button>
+              </div>
+            </form>
+          </div>
+          <div class="col-md-4">
+            <ul id="card-ul" class="list-group list-group-horizontal">
+              <li id="card-ul-li" class="list-group-item">Hi Lawrence<i class="fas fa-sort-down"></i></li>
+              <li id="card-ul-li" class="list-group-item">Help</li>
+              <li id="card-ul-li" class="list-group-item"><i class="fas fa-cart-arrow-down"></i>Cart</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <br />
+    <div class="container">
+      <!-- ************************************ /Section 2 ************************************* -->
+      <div class="row">
+        <div class="col-md-3">
+          <div class="card">
+            <p id="p-category" style="margin-top: 10px;" class="card-text"><i id="fas" class="fas fa-plane"></i>Global Shipping</p>
+            <p id="p-category" class="card-text"><i id="fas" class="fas fa-store-alt"></i>Our Store</p>
+            <p id="p-category" class="card-text"><i id="fas" class="fas fa-tshirt"></i>Fashion</p>
+            <p id="p-category" class="card-text"><i id="fas" class="fas fa-tv"></i></i>Electronics</p>
+            <p id="p-category" class="card-text"><i id="fas" class="fas fa-mobile-alt"></i>Phone & tablets</p>
+            <p id="p-category" class="card-text"><i id="fas" class="fas fa-apple-alt"></i>Grocery</p>
+            <p id="p-category" class="card-text"><i id="fas" class="fas fa-laptop"></i>Computers</p>
+            <p id="p-category" class="card-text"><i id="fas" class="fas fa-washer"></i>Kitchen & Office</p>
+            <p id="p-category" style="margin-bottom: 10px;" class="card-text"><i id="fas" class="fas fa-paint-brush"></i>Beauty</p>
+          </div>
+        </div>
+        <div class="col-md-8">
+          <div id="slider-card" class="card">
+            <div class="card-body">
+              <div
+                id="carouselExampleCaptions"
+                class="carousel slide"
+                data-ride="carousel"
+              >
+                <ol class="carousel-indicators">
+                  <li
+                    data-target="#carouselExampleCaptions"
+                    data-slide-to="0"
+                    class="active"
+                  ></li>
+                  <li
+                    data-target="#carouselExampleCaptions"
+                    data-slide-to="1"
+                  ></li>
+                  <li
+                    data-target="#carouselExampleCaptions"
+                    data-slide-to="2"
+                  ></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img
+                      id="slider-img"
+                      src="img/offer2.jpg"
+                      class="card-img"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      id="slider-img"
+                      src="img/offer4.jpg"
+                      class="card-img"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      id="slider-img"
+                      src="img/offer5.jpg"
+                      class="card-img"
+                      alt="..."
+                    />
+                  </div>
+                </div>
+                <a
+                  class="carousel-control-prev"
+                  href="#carouselExampleCaptions"
+                  role="button"
+                  data-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a
+                  class="carousel-control-next"
+                  href="#carouselExampleCaptions"
+                  role="button"
+                  data-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br />
+      <!-- ************************************ /Section 2 ************************************* -->
+      <section class="section1">
+        <div class="card">
+          <div class="card-header">Electronics</div>
+          <div class="card-body">
+            <div class="row">
+              <div class="col">
+                <div class="card">
+                  <div id="item" class="card-body">
+                    <img src="img/tv.jpg" alt="" class="card-img" />
+                    <p id="name" class="card-text">LG tv</p>
+                    <p id="price" class="card-text font-weight-bold">
+                      Ksh 20000
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <div id="item" class="card-body">
+                    <img src="img/phone.jpg" alt="" class="card-img" />
+                    <p id="name" class="card-text">Oppo A57</p>
+                    <p id="price" class="card-text font-weight-bold">
+                      Ksh 12000
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <div id="item" class="card-body">
+                    <img src="img/woofer.jpg" alt="" class="card-img" />
+                    <p id="name" class="card-text">Sony Woofer</p>
+                    <p id="price" class="card-text font-weight-bold">
+                      Ksh 6500
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <div id="item" class="card-body">
+                    <img src="img/mouse.jpeg" alt="" class="card-img" />
+                    <p id="name" class="card-text">Computer mouse</p>
+                    <p id="price" class="card-text font-weight-bold">Ksh 350</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div onclick="myFunction()" class="card">
+                  <div id="item" class="card-body">
+                    <img src="img/blender.jpg" alt="" class="card-img" />
+                    <p id="name" class="card-text">Blender</p>
+                    <p id="price" class="card-text font-weight-bold">
+                      Ksh 3000
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col" style="margin: 0px;">
+                <div class="card">
+                  <div id="item" class="card-body">
+                    <img src="img/hp.png" alt="" class="card-img" />
+                    <p id="name" class="card-text">Hp Envy</p>
+                    <p id="price" class="card-text font-weight-bold">
+                      Ksh 50000
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <br />
+      <!-- ************************************ Section 3 ************************************* -->
+      <section class="section1">
+        <div class="card">
+          <div class="card-header">Fashion</div>
+          <div class="card-body">
+            <div class="row">
+              <div class="col">
+                <div class="card">
+                  <div id="item" class="card-body">
+                    <img
+                      id="item-img"
+                      src="img/dress.jpg"
+                      alt=""
+                      class="card-img"
+                    />
+                    <p id="name" class="card-text">Gucci</p>
+                    <p id="price" class="card-text font-weight-bold">
+                      Ksh 20000
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <div id="item" class="card-body">
+                    <img
+                      id="item-img"
+                      src="img/tab.jpg"
+                      alt=""
+                      class="card-img"
+                    />
+                    <p id="name" class="card-text">watch</p>
+                    <p id="price" class="card-text font-weight-bold">
+                      Ksh 12000
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <div id="item" class="card-body">
+                    <img
+                      id="item-img"
+                      src="img/cargo.jpg"
+                      alt=""
+                      class="card-img"
+                    />
+                    <p id="name" class="card-text">Cargo pants</p>
+                    <p id="price" class="card-text font-weight-bold">
+                      Ksh 1200
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <div id="item" class="card-body">
+                    <img
+                      id="item-img"
+                      src="img/hardbag.jpg"
+                      alt=""
+                      class="card-img"
+                    />
+                    <p id="name" class="card-text">Gucci hardbag</p>
+                    <p id="price" class="card-text font-weight-bold">
+                      Ksh 5000
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <div id="item" class="card-body">
+                    <img
+                      id="item-img"
+                      src="img/shoes.jpg"
+                      alt=""
+                      class="card-img"
+                    />
+                    <p id="name" class="card-text">Rubber shoes</p>
+                    <p id="price" class="card-text font-weight-bold">
+                      Ksh 3000
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col" style="margin: 0px;">
+                <div class="card">
+                  <div id="item" class="card-body">
+                    <img
+                      id="item-img"
+                      src="img/reebok.jpg"
+                      alt=""
+                      class="card-img"
+                    />
+                    <p id="name" class="card-text">T-Shirts</p>
+                    <p id="price" class="card-text font-weight-bold">
+                      Ksh 1000
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <br />
+      <!-- ************************************ /Section 3 ************************************* -->
+      <section class="section1">
+        <div class="card">
+          <div class="card-header">GROCERIES</div>
+          <div class="card-body">
+            <div class="row">
+              <div class="col">
+                <div class="card">
+                  <div id="item" class="card-body">
+                    <img
+                      id="item-img"
+                      src="img/royco.jpg"
+                      alt=""
+                      class="card-img"
+                    />
+                    <p id="name" class="card-text">Royco</p>
+                    <p id="price" class="card-text font-weight-bold">Ksh 120</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <div id="item" class="card-body">
+                    <img
+                      id="item-img"
+                      src="img/onoins.webp"
+                      alt=""
+                      class="card-img"
+                    />
+                    <p id="name" class="card-text">Food stufs</p>
+                    <p id="price" class="card-text font-weight-bold">Ksh 200</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <div id="item" class="card-body">
+                    <img
+                      id="item-img"
+                      src="img/milk.jpg"
+                      alt=""
+                      class="card-img"
+                    />
+                    <p id="name" class="card-text">Milk</p>
+                    <p id="price" class="card-text font-weight-bold">Ksh 50</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <div id="item" class="card-body">
+                    <img
+                      id="item-img"
+                      src="img/wine.png"
+                      alt=""
+                      class="card-img"
+                    />
+                    <p id="name" class="card-text">Jameson</p>
+                    <p id="price" class="card-text font-weight-bold">
+                      Ksh 2000
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <div id="item" class="card-body">
+                    <img
+                      id="item-img"
+                      src="img/sugar.jpg"
+                      alt=""
+                      class="card-img"
+                    />
+                    <p id="name" class="card-text">Cabras sugar</p>
+                    <p id="price" class="card-text font-weight-bold">Ksh 160</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col" style="margin: 0px;">
+                <div class="card">
+                  <div id="item" class="card-body">
+                    <img
+                      id="item-img"
+                      src="img/omo.jpg"
+                      alt=""
+                      class="card-img"
+                    />
+                    <p id="name" class="card-text">Omo</p>
+                    <p id="price" class="card-text font-weight-bold">Ksh 130</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <br />
+      <!-- ************************************ Section 4 ************************************* -->
+
+      <!-- ************************************ /Section 4 ************************************* -->
+
+      <!-- ************************************ Section 5 ************************************* -->
+
+      <!-- ************************************ /Section 5 ************************************* -->
+
+      <!-- ************************************ Section 6 ************************************* -->
+
+      <!-- ************************************ /Section 6 ************************************* -->
+    </div>
+    <script src="index.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,102 @@
+body {
+  background-color: #fafaf8;
+}
+#top-card {
+  height: 70px;
+}
+#search-form {
+  margin-top: 10px;
+}
+#logo {
+  height: 50px;
+}
+#search-input {
+  width: 300px;
+  height: 45px;
+}
+#search-btn {
+  height: 45px;
+  width: 80px;
+  margin-left: 10px;
+}
+#card-ul {
+  margin-top: 10px;
+}
+#card-ul-li {
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+#p-category {
+  margin-left: 20px;
+}
+#fas {
+  margin-right: 5px;
+}
+#slider-card {
+  height: 400px;
+}
+#slider-img {
+  height: 390px;
+  padding: 0px;
+  margin-top: -10px;
+}
+
+.section1 .card .card-body .row {
+  margin-top: -20px;
+  margin-bottom: -20px;
+}
+
+.section1 .card .card-body .row .col .card {
+  border: none;
+}
+#cart-info {
+  padding: 10px;
+}
+.checked {
+  color: orange;
+}
+
+@media only screen and (max-width: 570px) {
+  .container {
+    padding: 0px;
+  }
+  #top-card {
+    height: 50px;
+  }
+  #logo {
+    display: none;
+  }
+  #search-form {
+    width: 90%;
+    margin-top: -35px;
+    margin-left: 20px;
+  }
+  #search-input {
+    width: 270px;
+    height: 35px;
+  }
+  #search-btn {
+    height: 35px;
+    width: 100px;
+    margin-left: 10px;
+  }
+  #card-ul {
+    display: none;
+  }
+  #item {
+    width: 200px;
+  }
+  #item-img {
+    width: 190px;
+    height: 200px;
+  }
+  #name {
+    margin-top: 5px;
+    font-size: 10px;
+  }
+  #price {
+    margin-top: -10px;
+    font-size: 12px;
+  }
+}
